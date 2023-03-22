@@ -1,11 +1,11 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_184_1508)">
+<g clip-path="url(#clip0_184_1508)" filter="url(#filter0_d_184_1508)">
 <mask id="path-1-outside-1_184_1508" maskUnits="userSpaceOnUse" x="2" y="2" width="11" height="11" fill="black">
 <rect fill="white" x="2" y="2" width="11" height="11"/>
 <path d="M12 3H3V12H4V4H12V3Z"/>
 </mask>
-<path d="M12 3H3V12H4V4H12V3Z" fill="#1F1F1F"/>
-<path d="M12 3H3V12H4V4H12V3Z" stroke="white" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_184_1508)"/>
+<path d="M12 3H3V12H4V4H12V3Z" fill="#343F44"/>
+<path d="M12 3H3V12H4V4H12V3Z" stroke="#D3C6AA" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_184_1508)"/>
 </g>
 <defs>
 <filter id="filter0_d_184_1508" x="-2" y="-2" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -17,5 +17,8 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_184_1508"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_184_1508" result="shape"/>
 </filter>
+<clipPath id="clip0_184_1508">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
 </defs>
 </svg>

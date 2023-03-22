@@ -1,5 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_182_7077)">
+<g clip-path="url(#clip0_182_7077)" filter="url(#filter0_d_182_7077)">
 <mask id="path-1-outside-1_182_7077" maskUnits="userSpaceOnUse" x="2" y="2" width="19" height="19" fill="black">
 <rect fill="white" x="2" y="2" width="19" height="19"/>
 <path d="M11 3V9H12V3H11Z"/>
@@ -7,14 +7,14 @@
 <path d="M11 14H12V20H11V14Z"/>
 <path d="M3 12H9V11H3V12Z"/>
 </mask>
-<path d="M11 3V9H12V3H11Z" fill="#1F1F1F"/>
-<path d="M14 12V11H20V12H14Z" fill="#1F1F1F"/>
-<path d="M11 14H12V20H11V14Z" fill="#1F1F1F"/>
-<path d="M3 12H9V11H3V12Z" fill="#1F1F1F"/>
-<path d="M11 3V9H12V3H11Z" stroke="white" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
-<path d="M14 12V11H20V12H14Z" stroke="white" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
-<path d="M11 14H12V20H11V14Z" stroke="white" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
-<path d="M3 12H9V11H3V12Z" stroke="white" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
+<path d="M11 3V9H12V3H11Z" fill="#343F44"/>
+<path d="M14 12V11H20V12H14Z" fill="#343F44"/>
+<path d="M11 14H12V20H11V14Z" fill="#343F44"/>
+<path d="M3 12H9V11H3V12Z" fill="#343F44"/>
+<path d="M11 3V9H12V3H11Z" stroke="#D3C6AA" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
+<path d="M14 12V11H20V12H14Z" stroke="#D3C6AA" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
+<path d="M11 14H12V20H11V14Z" stroke="#D3C6AA" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
+<path d="M3 12H9V11H3V12Z" stroke="#D3C6AA" stroke-width="2" stroke-linejoin="round" mask="url(#path-1-outside-1_182_7077)"/>
 </g>
 <defs>
 <filter id="filter0_d_182_7077" x="-2" y="-2" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -26,5 +26,8 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_182_7077"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_182_7077" result="shape"/>
 </filter>
+<clipPath id="clip0_182_7077">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
 </defs>
 </svg>

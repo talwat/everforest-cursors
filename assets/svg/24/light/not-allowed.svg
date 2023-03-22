@@ -1,8 +1,8 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_197_3452)">
-<circle cx="12" cy="12.5" r="7" fill="#FB5050" stroke="#1F1F1F" stroke-linejoin="round"/>
-<g clip-path="url(#clip0_197_3452)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8103 10.104L9.60399 16.3102C11.3426 17.4057 13.6677 17.1963 15.182 15.682C16.6963 14.1676 16.9057 11.8425 15.8103 10.104ZM14.396 8.68975L8.18978 14.896C7.09429 13.1574 7.30371 10.8323 8.81804 9.31801C10.3324 7.80368 12.6575 7.59426 14.396 8.68975Z" fill="#1F1F1F"/>
+<g clip-path="url(#clip0_197_3452)" filter="url(#filter0_d_197_3452)">
+<circle cx="12" cy="12.5" r="7" fill="#E67E80" stroke="#343F44" stroke-linejoin="round"/>
+<g clip-path="url(#clip1_197_3452)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8103 10.104L9.60399 16.3102C11.3426 17.4057 13.6677 17.1963 15.182 15.682C16.6963 14.1676 16.9057 11.8425 15.8103 10.104ZM14.396 8.68975L8.18978 14.896C7.09429 13.1574 7.30371 10.8323 8.81804 9.31801C10.3324 7.80368 12.6575 7.59426 14.396 8.68975Z" fill="#343F44"/>
 </g>
 </g>
 <defs>
@@ -16,6 +16,9 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_197_3452" result="shape"/>
 </filter>
 <clipPath id="clip0_197_3452">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+<clipPath id="clip1_197_3452">
 <rect width="13" height="13" fill="white" transform="translate(5.5 6)"/>
 </clipPath>
 </defs>
