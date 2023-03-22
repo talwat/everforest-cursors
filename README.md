@@ -9,7 +9,7 @@ Everforest Medium Dark cursor theme.
 For a manual installation, download and extract the [latest release](https://github.com/talwat/everforest-cursors/releases/latest/download/everforest-cursors-variants.tar.bz2) into the `~/.icons` directory.
 
 ```sh
-wget -cO- https://github.com/phisch/everforest-cursors/releases/latest/download/everforest-cursors-variants.tar.bz2 | tar xfj - -C ~/.icons
+wget -cO- https://github.com/talwat/everforest-cursors/releases/latest/download/everforest-cursors-variants.tar.bz2 | tar xfj - -C ~/.icons
 ```
 
 This installs the cursor theme for your current user. To install for all users, extract into `/usr/share/icons` instead.
