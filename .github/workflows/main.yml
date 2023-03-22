@@ -50,5 +50,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: build/everforest-cursors-variants.tar.bz2
-          draft: true
+          draft: false
           tag_name: ${{ steps.figma_cursor_theme.outputs.version }}
