@@ -14,9 +14,9 @@ jobs:
         with:
           figma_access_token: ${{ secrets.FIGMA_ACCESS_TOKEN }}
           figma_file_key: ${{ secrets.FIGMA_FILE_KEY }}
-          alias_component_set_id: 2-8
-          sprite_component_set_id: 2-6
-          theme_name: 'Everforest Cursors'
+          alias_component_set_id: '2:8'
+          sprite_component_set_id: '2:6'
+          theme_name: 'Everforest cursors'
           theme_comment: 'Everforest cursors, based on phinger-cursors.'
           theme_directory: 'build/themes'
           export_directory: 'build/exports'
