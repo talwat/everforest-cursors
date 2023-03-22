@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   generate_cursor_theme_job:
     runs-on: ubuntu-latest
-    name: Build phinger-cursors, publish assets and draft release
+    name: Build everforest-cursors, publish assets and draft release
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -14,10 +14,10 @@ jobs:
         with:
           figma_access_token: ${{ secrets.FIGMA_ACCESS_TOKEN }}
           figma_file_key: ${{ secrets.FIGMA_FILE_KEY }}
-          alias_component_set_id: ${{ secrets.ALIAS_COMPONENT_SET_ID }}
-          sprite_component_set_id: ${{ secrets.SPRITE_COMPONENT_SET_ID }}
-          theme_name: 'Phinger Cursors'
-          theme_comment: 'The most over engineered cursor theme.'
+          alias_component_set_id: 2-8
+          sprite_component_set_id: 2-6
+          theme_name: 'Everforest Cursors'
+          theme_comment: 'Everforest cursors, based on phinger-cursors.'
           theme_directory: 'build/themes'
           export_directory: 'build/exports'
           svg_directory: 'build/exports/svg'
@@ -35,17 +35,17 @@ jobs:
           message: 'updated assets from figma file version ${{ steps.figma_cursor_theme.outputs.version }}'
 
       - name: Compress variants
-        run: tar -cjf build/phinger-cursors-variants.tar.bz2 -C build/themes .
+        run: tar -cjf build/everforest-cursors-variants.tar.bz2 -C build/themes .
 
       - name: Upload cursor variants artifact
         uses: actions/upload-artifact@v2
         with:
-          name: phinger-cursors-variants
-          path: build/phinger-cursors-variants.tar.bz2
+          name: everforest-cursors-variants
+          path: build/everforest-cursors-variants.tar.bz2
 
       - name: Draft Release
         uses: softprops/action-gh-release@v1
         with:
-          files: build/phinger-cursors-variants.tar.bz2
+          files: build/everforest-cursors-variants.tar.bz2
           draft: true
           tag_name: ${{ steps.figma_cursor_theme.outputs.version }}
