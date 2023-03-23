@@ -1,6 +1,6 @@
 # Everforest cursors
 
-Everforest Medium Dark cursor theme.
+Everforest Medium Dark cursor theme, based on [phinger-cursors](https://github.com/phisch/phinger-cursors).
 
 ![preview](assets/preview.png)
 
@@ -58,7 +58,7 @@ Xcursor.size: CURSOR_SIZE
 
 ## License & Credits
 
-Everforest cursors is based on [phinger-cursors](https://github.com/phisch/phinger-cursors)
+This is a recoloring of [phinger-cursors](https://github.com/phisch/phinger-cursors), so huge props to them.
 
 All assets, including the Figma document are licensed under the [CC-BY-SA-4.0 License](LICENSE).
 
